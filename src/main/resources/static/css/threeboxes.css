@@ -1,0 +1,13 @@
+.inline{
+    display: inline;
+    background: beige;
+}
+
+.block{
+    display: block;
+    background: blue;
+}
+
+.nostyle{
+
+}

@@ -1,0 +1,41 @@
+/* Stil for rullemenuen */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Stil for rullemenuens valgmuligheder */
+option {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.page-container{
+    background: lightgray;
+    height: 100vh;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50vh;
+}
+.block-container {
+    position: absolute; /* Positioner absolut i forhold til parent (.page-container) */
+    top: 50%; /* Placerer den øverste kant af containeren på 50% af parentens højde */
+    left: 50%; /* Placerer den venstre kant af containeren på 50% af parentens bredde */
+    transform: translate(-50%, -50%); /* Flytter containeren tilbage med 50% af dens egen bredde og højde */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    width: 60vh;
+    height: 50vh;
+    border-radius: 20px;
+    border: 2px solid whitesmoke; /* Tilføj grænsestil og bredde */
+}

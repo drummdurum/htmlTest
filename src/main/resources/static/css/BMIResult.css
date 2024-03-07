@@ -1,0 +1,18 @@
+.page-container{
+    background: lightgray;
+    height: 100vh;
+}
+.block-container{
+    align-items: center;
+    position: absolute; /* Positioner absolut i forhold til parent (.page-container) */
+    top: 50%; /* Placerer den øverste kant af containeren på 50% af parentens højde */
+    left: 50%; /* Placerer den venstre kant af containeren på 50% af parentens bredde */
+    transform: translate(-50%, -50%); /* Flytter containeren tilbage med 50% af dens egen bredde og højde */
+    display: flex;
+    flex-direction: column;
+    background: white ;
+    width: 60vh;
+    height: 20vh;
+    border-radius:20px ;
+    border: 2px solid whitesmoke; /* Tilføj grænsestil og bredde */
+}

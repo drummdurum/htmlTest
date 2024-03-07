@@ -1,0 +1,50 @@
+.block-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+    background: yellow;
+
+}
+
+body{
+    margin: 70px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background: red;
+    width: 500px;
+    height: 400px;
+
+    h1{
+        color: whitesmoke;
+        font-size: 70px;
+    }
+}
+
+.div{
+    flex: 1;
+    display: flex;
+
+}
+
+.inline{
+    display: inline;
+    align-items: center;
+    p1{
+        font-size: 70px;
+        letter-spacing: 5px;
+        color: firebrick;
+        margin: 20px;
+    }
+    p2{
+        font-size: 50px;
+        color: black;
+        margin: 20px;
+    }
+}

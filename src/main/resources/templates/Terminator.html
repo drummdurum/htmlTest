@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terminator</title>
+</head>
+<body>
+<h2> Am I Cool?</h2>
+<div>
+    <p> Do you im skillfull?</p>
+    <input type="text" id="answerInput" placeholder="ja eller nej">
+    <button id="myButton" onclick="handleButtonClick()">Tryk her</button>
+    <script>
+        function handleButtonClick() {
+            var answer = document.getElementById("answerInput").value;
+            if (answer.toLowerCase() === "ja") {
+                alert("ja du er cool! men du er ikke Terminator");
+            } else {
+                alert("nej du er stadig cool! man skal starte et sted for at blive terminator");
+            }
+        }
+    </script>
+</div>
+<img src="../static/images/ter.jpg" th:src="@{images/ter.jpg}" width="1200" height="500">
+</body>
+</html>

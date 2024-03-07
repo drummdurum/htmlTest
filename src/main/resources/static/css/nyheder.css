@@ -1,0 +1,68 @@
+
+.inlineNyheder{
+    display: flex;
+    align-items: center;
+    background: yellow;
+
+    p2{
+        font-size: 70px;
+        color: firebrick;
+        margin: 20px;
+
+    }
+    p2 a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+}
+
+.inline{
+    display: flex;
+    background: yellow;
+    p1{
+        color: black;
+        margin: 20px;
+        font-size: 50px;
+
+    }
+
+}
+
+.block-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+    background: whitesmoke;
+
+}
+
+body{
+    margin: 70px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background: red;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+
+    h1{
+        color: white;
+        font-size: 70px;
+
+
+    }
+    h1 a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Er Det fredag?</title>
+    <link rel = "stylesheet" href="../static/css/tjekDagen.css" th:href ="@{css/tjekDagen.css}">
+</head>
+<body>
+<div class="page-container">
+    <form action="/tjekDagen" method="post">
+    <div class="block-container">
+    <div class="block">
+    <p1>Vægl hvilken dag</p1>
+    <div>
+        <select class = flex-container>
+            <option value="Mandag">Mandag</option>
+            <option value="Tirsdag">Tirsdag</option>
+            <option value="Onsdag">Onsdag</option>
+            <option value="Torsdag">Torsdag</option>
+            <option value="Fredag">Fredag</option>
+            <option value="Lørdag">Lørdag</option>
+            <option value="Søndag">Søndag</option>
+        </select>
+
+    </div>
+    </div>
+    </div>
+</body>
+</html>

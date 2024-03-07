@@ -1,0 +1,36 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50vh;
+}
+
+.left-align{
+    text-align: left;
+}
+.page-container{
+    background: lightgray;
+    height: 100vh;
+}
+.block-container{
+    align-items: center;
+    position: absolute; /* Positioner absolut i forhold til parent (.page-container) */
+    top: 50%; /* Placerer den øverste kant af containeren på 50% af parentens højde */
+    left: 50%; /* Placerer den venstre kant af containeren på 50% af parentens bredde */
+    transform: translate(-50%, -50%); /* Flytter containeren tilbage med 50% af dens egen bredde og højde */
+    display: flex;
+    flex-direction: column;
+    background: white ;
+    width: 60vh;
+    height: 50vh;
+    border-radius:20px ;
+    border: 2px solid whitesmoke; /* Tilføj grænsestil og bredde */
+}
+.my-button {
+    background-color: green; /* Ændre farven efter behov */
+    color: white; /* Ændre tekstfarven efter behov */
+    border: none; /* Fjerner kantlinjer */
+    padding: 10px 180px; /* Juster polstring efter behov */
+    cursor: pointer; /* Viser en håndmarkør, når musen er over knappen */
+    border-radius: 5px;/* Runder kanterne af knappen */
+}
